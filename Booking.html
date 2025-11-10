@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestill verksted</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo-img" ></a>
+      </div>
+         <nav>
+              <ul>
+               <li><a href="index.html">Hjem</a></li>
+               <li><a href="#kommende">Kommende</a></li>
+               <li><a href="feedback.html">Tilbakemelding</a></li>
+               <li><a href="gallery.html">Galleri</a></li>
+               <li><a href="workshops.html"><button class="bestill-btn">Bestill verksted</button></a></li>
+              </ul>
+          </nav>
+    </header>
+        <main>
+        <h3 class="booking-text">I CRAFTSVILLA skaper vi et varmt og inkluderende rom der du kan utforske kreativitet og fellesskap. Våre instruktør-ledede workshops gir deg alt du trenger – du møter opp, vi ordner resten.</h3>
+        <section class="container" id="workshops">
+         <div class="cards">
+            <div class="workshop">
+                <img src="images/mosaic.jpg" alt="mosaic art">
+                <h3>Mosaikk Kunst</h3>
+                <p class="price">400 kr</p>
+                <p>Inkluderer ramme, A4 treplate, små fargede steiner og gummi.</p>
+            </div>
+            <div class="workshop">
+                <img src="images/watercolor.jpg" alt="watercolor painting">
+                <h3>Akvarellmaling</h3>
+                <p class="price">200 kr</p>
+                <p>Inkluderer ramme, akvarellpapir med design, akvarellfarger og pensler.</p>
+            </div>
+            <div class="workshop">
+                <img src="images/canvas.jpg" alt="canvas painting">
+                <h3>Lerretsmaling</h3>
+                <p class="price">300 kr</p>
+                <p>Inkluderer ramme, akrylpapir med design, akrylfarger og pensler.</p>
+            </div>
+            </div>
+        </section>
+
+        <section >
+          <form class="form">
+             <h1>Bestill workshop</h1>
+             <p>Velg kunstform, dato og antall deltakere. Vi kontakter deg for bekreftelse.</p>
+             <div class="main-container">
+                <div class="row-div">
+                  <label for="name">Navn </label>
+                  <input type="text" name="name" id="name" placeholder="Fornavn Etternavn">
+                </div>
+
+                <div class="row-div">
+                  <label for="email">E-post</label>
+                  <input type="email" name="email" id="email" placeholder="navn@eksempel.no">
+                </div>
+
+                <div class="row-div">
+                  <label for="telephonenumber">Telefonnummer</label>
+                  <input type="tel" name="telephonenumber" id="telephonenumber" placeholder="12345678" style="width:168px;">
+                </div>
+
+                <div class="row-div">
+                  <label for="people">Antall deltakere</label>
+                  <input type="number" name="people" id="people" placeholder="1" min="1" max="20" style="width:170px">
+                </div>
+
+                <div class="row-div">
+                  <label for="workshop">Workshopen du ønsker å delta på</label> <br>
+                  <br>
+                  <select id="workshop" name="workshop">
+                    <option>Mosaikkkunst</option>
+                    <option>Akvarellmaling</option>
+                    <option>Lerretsmaling</option>
+                    <option selected>---</option>
+                  </select>
+                </div>
+
+                <div class="row-div">
+                 <label for="comment">Spørsmål eller kommentar</label><br>
+                 <br>
+                 <textarea id="comment" name="comment" rows="2" placeholder="Spørsmål eller kommentarer til bestillingen din" style="width: 300px;"></textarea>
+               </div>
+              </div>
+
+              <button type="submit" class="bestill-btn">Send bestilling</button>
+            </form>
+        </section>
+
+        <section class="feedback-text2">
+        <p>✅ Tusen takk for bestillingen! Vi kontakter deg for bekreftelse.</p>
+        </section>
+
+
+          <section class="container2" id="kommende">
+            <h2>Kommende verksteder</h2>
+            <div class="soon" id ="leire">
+                <img src="images/leirekunst.jpg" alt="leire art">
+                <div class="soon-text">
+                <h3>Leirekunst & Skulptur</h3>
+                <p class="price">Dato: i Desember 2025</p>
+                <p>Bli med på et kreativt og avslappende leireverksted der du kan forme, male og lage dine egne kunstverk.
+                    Dette verkstedet passer for alle aldre – også barn!
+                    Sammen kan vi lage små skåler, kopper eller morsomme figurer av leire.</p>
+               </div>
+              </div>
+            <div class="soon" id="papir">
+                <img src="images/papir.jpg" alt="paper art">
+                <div class="soon-text">
+                <h3>Papirverksted</h3>
+                <p class="price">Dato: i Desember 2025</p>
+                <p>Lag magiske figurer av papir.La barna utforske sin fantasi med farger, klipp og lim!
+                  I dette verkstedet lager vi morsomme og vakre papirfigurer som blomster, dyr og små dekorasjoner.
+                    Et kreativt og lekent verksted som passer perfekt for barn og familier.</p>
+                </div>
+            </div>
+            <div class="soon" id="lys">
+                <img src="images/lys.jpg" alt="candle making">
+               <div class="soon-text">
+                <h3>Lysstøping</h3>
+                <p class="price">Dato: i Desember 2025</p>
+                <p>Lag dine egne duftlys.Lær hvordan du kan lage vakre håndlagde lys med nydelige dufter og farger.
+                   I dette verkstedet får du prøve å smelte voks, tilsette eteriske oljer og designe ditt eget lys i glass.
+                   Perfekt for deg som liker rolige, kreative aktiviteter.
+                   Passer for ungdom og voksne – en varm og stemningsfull opplevelse i vintertid.</p>
+               </div>
+            </div>
+            </div>
+        </section>
+      </main>
+
+    <footer>
+          <img src="images/logo.png" alt="logo-img">
+          <div class="footer-icons">
+           <a href="https://wa.me/123456789" target="_blank" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+           </a>
+           <a href="https://facebook.com/" target="_blank" title="Facebook">
+             <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="https://instagram.com/" target="_blank" title="Instagram">
+             <i class="fab fa-instagram"></i>
+           </a>
+        </div>
+          <p>Kreative workshops for fellesskap og avslapning.<br>
+             Kontakt: <a href="mailto:hei@craftsvilla.no">hei@craftsvilla.no</a> · Tlf: +47 40 12 34 56 <br>
+             © 2025 CRAFTSVILLA · Bygget med HTML, CSS og litt JS.
+            </p>
+    </footer>
+</body>
+</html>

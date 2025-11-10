@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilbakemelding</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo-img" ></a>
+      </div>
+         <nav>
+              <ul>
+               <li><a href="index.html">Hjem</a></li>
+               <li><a href="index.html#workshops">Verksteder</a></li>
+               <li><a href="#anbefal">Anbefalinger</a></li>
+               <li><a href="gallery.html">Galleri</a></li>
+               <li><a href="Booking.html"><button class="bestill-btn">Bestill verksted</button></a></li>
+              </ul>
+          </nav>
+
+    </header>
+    <main>
+        <section class="bg-img">
+        <h1 class="hero-text feedback-text1">Tilbakemeldingene dine hjelper oss å gjøre workshopene bedre for alle. <br> Del gjerne opplevelsen din.</h1>
+        </section>
+          <div >
+          </div>
+        <section >
+            <form class="form">
+            <h1>Vi vil gjerne høre fra deg!</h1>
+            <div class="main-container">
+              <div class="row-div">
+                <label for="name">Navn </label>
+                <input type="text" name="name" id="name" placeholder="Fornavn Etternavn">
+              </div>
+
+              <div class="row-div">
+                <label for="email">E-post</label>
+                <input type="email" name="email" id="email" placeholder="navn@eksempel.no">
+              </div>
+
+              <div class="row-div">
+                <label for="attended">Workshop deltatt på</label></label>
+                <select id="attended" name="attended">
+                 <option>Mosaikkkunst</option>
+                 <option>Akvarellmaling</option>
+                 <option>Lerretsmaling</option>
+                 <option>Annet / Flere</option>
+                 <option selected>---</option>
+               </select>
+              </div>
+              <div class="row-div">
+                <label for="recommend">Anbefaler du oss til andre?</label>
+                <select id="recommend" name="recommend">
+                 <option>Ja</option>
+                 <option>Nei</option>
+                 <option>Kanskje</option>
+               </select>
+              </div>
+
+              <div class="row-div">
+               <label for="best">Hva likte du best?</label><br>
+               <br>
+               <textarea id="best" name="best" rows="5" placeholder="Fortell kort om din favorittdel"></textarea>
+              </div>
+
+              <div class="row-div">
+              <label for="improve">Hvordan kan vi forbedre opplevelsen?</label> <br>
+              <br>
+              <textarea id="improve" name="improve" rows="5" placeholder="Forslag til forbedring"></textarea>
+              </div>
+
+              <div class="">
+              <label for="photo">Last opp bilde (valgfritt)</label>
+              <input id="photo" name="photo" type="file" accept="image/*"/>
+              </div>
+
+              <div class="">
+              <input type="checkbox" name="permission"/><label> Jeg gir CRAFTSVILLA tillatelse til å dele tilbakemeldingen min offentlig.</label>
+              </div>
+
+
+          </div>
+              <button type="submit" class="bestill-btn">Send tilbakemelding</button>
+
+            </form>
+        </section>
+        <section class="feedback-text2">
+        <p>✅ Tusen takk for tilbakemeldingen! Vi setter stor pris på at du deler erfaringen din.</p>
+        </section>
+
+       <section class="container" id="anbefal">
+          <h2>Se hva andre har sagt om oss</h2>
+          <div class="cards">
+            <article class="workshop">
+              <img src="images/person1.png" alt="delers bilde">
+            <p> "Utrolig hyggelig familieverksted - barna elsket mosaikken!" <br> <strong>- Lina</strong></p>
+            </article>
+            <article class="workshop">
+              <img src="images/person2.png" alt="delers bilde">
+            <p>"Rolig og inspirerende kveldsøkt. Kommer gjerne igjen."<br> <strong>- Ahmed</strong> </p>
+            </article>
+            <article class="workshop">
+              <img src="images/person3.png" alt="delers bilde">
+            <p> "Instruktørene var varme og hjelpsomme. Alt utstyr klart!" <br><strong>- Nora</strong> </p>
+            </article>
+            </div>
+       </section>
+
+    </main>
+
+    <footer>
+          <img src="images/logo.png" alt="logo-img"  >
+          <div class="footer-icons">
+           <a href="https://wa.me/123456789" target="_blank" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+           </a>
+           <a href="https://facebook.com/" target="_blank" title="Facebook">
+             <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="https://instagram.com/" target="_blank" title="Instagram">
+             <i class="fab fa-instagram"></i>
+           </a>
+        </div>
+          <p>Kreative workshops for fellesskap og avslapning.<br>
+             Kontakt: <a href="mailto:hei@craftsvilla.no">hei@craftsvilla.no</a> · Tlf: +47 40 12 34 56 <br>
+             © 2025 CRAFTSVILLA · Bygget med HTML, CSS og litt JS.
+            </p>
+    </footer>
+    
+</body>
+</html>
+
+
+
+

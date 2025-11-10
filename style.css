@@ -423,7 +423,9 @@ color: #241f5b;
 .soon-text h3{
     margin-bottom: 20px;
 }
-
+#form{
+    scroll-margin-top: 60px;
+}
 
 /*.......Lightbox .....*/
 

@@ -1,9 +1,6 @@
-
-
-# 🎨 CraftsVilla
-
 ![CraftsVilla Screenshot](image.png)
 
+# 🎨 CraftsVilla
 A creative website for exploring and booking art workshops for all ages.
 
 ## ✨ Features
